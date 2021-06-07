@@ -11,6 +11,15 @@ public class PlayerMovement : MonoBehaviour
 
 
     private Vector3 moveDirection;
+    private Vector3 velocity;
+
+    [SerializeField] private bool isGrounded;
+    [SerializeField] private float groundCheckDistance;
+    [SerializeField] private LayerMask groundMask;
+    [SerializeField] private float gravity;
+
+
+    [SerializeField] private float jumpHeight;
 
     //references
     private CharacterController controller;
@@ -29,24 +38,72 @@ public class PlayerMovement : MonoBehaviour
 
     private void Move()
     {
+
+        isGrounded = Physics.CheckSphere(transform.position, groundCheckDistance, groundMask);
+
+        if(isGrounded && velocity.y < 0)
+        {
+            velocity.y = -2f;
+        }
+
         float moveZ = Input.GetAxis("Vertical");
+        float moveX = Input.GetAxis("Horizontal");
 
-        moveDirection = new Vector3(0, 0, moveZ);
+        moveDirection = new Vector3(moveX, 0, moveZ);
+        moveDirection = transform.TransformDirection(moveDirection);
         moveDirection *= walkSpeed;
+        if (isGrounded)
+        {
+            if (moveDirection != Vector3.zero && !Input.GetKey(KeyCode.LeftShift))
+            {
+                //walking
+                Walk();
+            }
+            else if (moveDirection != Vector3.zero && Input.GetKey(KeyCode.LeftShift))
+            {
+                //running
+                Run();
+            }
+            else if (moveDirection == Vector3.zero)
+            {
+                //idling
+                Idle();
+            }
 
-        if(moveDirection != Vector3.zero && !Input.GetKey(KeyCode.LeftShift))
-        {
-            //walking
+            moveDirection *= moveSpeed;
+
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                Jump();
+            }
         }
-        else if(moveDirection != Vector3.zero && Input.GetKey(KeyCode.LeftShift))
-        {
-            //running
-        }
-        else if(moveDirection == Vector3.zero)
-        {
-            //idling
-        }
+
+        
 
         controller.Move(moveDirection * Time.deltaTime);
+
+        velocity.y += gravity * Time.deltaTime;
+        controller.Move(velocity * Time.deltaTime);
+    }
+
+
+    private void Walk()
+    {
+        moveSpeed = walkSpeed;
+    }
+
+    private void Run()
+    {
+        moveSpeed = runSpeed;
+    }
+
+    private void Idle()
+    {
+
+    }
+
+    private void Jump()
+    {
+        velocity.y = Mathf.Sqrt(jumpHeight * -2 * gravity);
     }
 }
