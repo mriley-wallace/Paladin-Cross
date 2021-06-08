@@ -9,16 +9,29 @@ public class animationStateController : MonoBehaviour
     private void Start()
     {
         animator = GetComponent<Animator>();
+
+        //QualitySettings.vSyncCount = 0;  // VSync must be disabled
+        //Application.targetFrameRate = 60;
     }
 
     private void Update()
     {
-        if (Input.GetKey(KeyCode.W) && !Input.GetKey(KeyCode.LeftShift))
+        if (Input.GetAxis("Vertical") != 0  && !Input.GetKey(KeyCode.LeftShift))
         {
             animator.SetBool("isWalking", true);
             animator.SetBool("isShiftPressed", false);
         }
-        else if(Input.GetKey(KeyCode.W) && Input.GetKey(KeyCode.LeftShift))
+        else if(Input.GetAxis("Vertical") != 0 && Input.GetKey(KeyCode.LeftShift))
+        {
+            animator.SetBool("isWalking", true);
+            animator.SetBool("isShiftPressed", true);
+        } 
+        else if (Input.GetAxis("Horizontal") != 0 && !Input.GetKey(KeyCode.LeftShift))
+        {
+            animator.SetBool("isWalking", true);
+            animator.SetBool("isShiftPressed", false);
+        }
+        else if(Input.GetAxis("Vertical") != 0 && Input.GetKey(KeyCode.LeftShift))
         {
             animator.SetBool("isWalking", true);
             animator.SetBool("isShiftPressed", true);

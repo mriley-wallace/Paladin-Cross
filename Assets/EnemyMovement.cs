@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerMovement : MonoBehaviour
+public class EnemyMovement : MonoBehaviour
 {
     //variables
     [SerializeField] private float moveSpeed;
@@ -28,7 +28,7 @@ public class PlayerMovement : MonoBehaviour
     private void Start()
     {
         controller = GetComponent<CharacterController>();
-        
+
     }
 
     private void Update()
@@ -38,47 +38,16 @@ public class PlayerMovement : MonoBehaviour
 
     private void Move()
     {
-        
+
         isGrounded = Physics.CheckSphere(transform.position, groundCheckDistance, groundMask);
 
-        if(isGrounded && velocity.y < 0)
+        if (isGrounded && velocity.y < 0)
         {
             velocity.y = -2f;
         }
 
-        float moveZ = Input.GetAxis("Vertical");
-        float moveX = Input.GetAxis("Horizontal");
-
-        moveDirection = new Vector3(moveX, 0, moveZ);
-        moveDirection = transform.TransformDirection(moveDirection);
-        moveDirection *= walkSpeed;
-        if (isGrounded)
-        {
-            if (moveDirection != Vector3.zero && !Input.GetKey(KeyCode.LeftShift))
-            {
-                //walking
-                Walk();
-            }
-            else if (moveDirection != Vector3.zero && Input.GetKey(KeyCode.LeftShift))
-            {
-                //running
-                Run();
-            }
-            else if (moveDirection == Vector3.zero)
-            {
-                //idling
-                Idle();
-            }
-
-            moveDirection *= moveSpeed;
-
-            if (Input.GetKeyDown(KeyCode.Space))
-            {
-                Jump();
-            }
-        }
-
         
+
 
         controller.Move(moveDirection * Time.deltaTime);
 
