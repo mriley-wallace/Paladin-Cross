@@ -597,9 +597,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4815265690284107527}
+  - component: {fileID: 83923005}
   m_Layer: 0
   m_Name: Bip001 R Hand
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -618,6 +619,19 @@ Transform:
   m_Father: {fileID: 4815265690284107525}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &83923005
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4815265690284276583}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.20926253, y: 0.22508559, z: 1.0644195}
+  m_Center: {x: -0.07641702, y: 0.04321318, z: 0.31737056}
 --- !u!1 &4815265690284276585
 GameObject:
   m_ObjectHideFlags: 0
@@ -785,11 +799,11 @@ GameObject:
   - component: {fileID: 4815265690284107541}
   - component: {fileID: 4815265690276874433}
   - component: {fileID: 4815265692158342224}
-  - component: {fileID: 4815265692158342222}
-  - component: {fileID: 4815265692158342225}
+  - component: {fileID: 1079710626}
+  - component: {fileID: 1079710627}
   m_Layer: 0
   m_Name: Enemy
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -801,7 +815,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4815265690284276597}
-  m_LocalRotation: {x: -0, y: 0.99783605, z: -0, w: 0.06575145}
+  m_LocalRotation: {x: 0, y: 0.99783605, z: 0, w: 0.06575145}
   m_LocalPosition: {x: -0.58740234, y: -0.6295929, z: 0.3216858}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -841,29 +855,33 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 2
---- !u!143 &4815265692158342222
-CharacterController:
+  m_CollisionDetection: 3
+--- !u!195 &1079710626
+NavMeshAgent:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4815265690284276597}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Height: 1.6
-  m_Radius: 0.3
-  m_SlopeLimit: 45
-  m_StepOffset: 0.3
-  m_SkinWidth: 0.08
-  m_MinMoveDistance: 0.001
-  m_Center: {x: 0, y: 0.78, z: 0}
---- !u!114 &4815265692158342225
+  m_AgentTypeID: 0
+  m_Radius: 1.06
+  m_Speed: 2
+  m_Acceleration: 10
+  avoidancePriority: 50
+  m_AngularSpeed: 500
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 1.5
+  m_BaseOffset: -0.05
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
+--- !u!114 &1079710627
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -872,20 +890,26 @@ MonoBehaviour:
   m_GameObject: {fileID: 4815265690284276597}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78ebee6e53f7db14387c314516fa18e7, type: 3}
+  m_Script: {fileID: 11500000, guid: d6345d7d0beae1148ba7372906d91547, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 0
-  walkSpeed: 2
-  runSpeed: 3
-  isGrounded: 0
-  groundCheckDistance: 0.5
-  groundMask:
+  agent: {fileID: 1079710626}
+  player: {fileID: 0}
+  whatIsGround:
     serializedVersion: 2
     m_Bits: 64
-  gravity: -9.81
-  jumpHeight: 1.5
-  controller: {fileID: 4815265692158342222}
+  whatIsPlayer:
+    serializedVersion: 2
+    m_Bits: 128
+  walkPoint: {x: 0, y: 0, z: 0}
+  walkPointRange: 20
+  timeBetweenAttacks: 0.5
+  sightRange: 10
+  attackRange: 2
+  playerInSightRange: 0
+  playerInAttackRange: 0
+  animator: {fileID: 4815265690276874433}
+  enemyHealth: 100
 --- !u!1 &4815265690284276599
 GameObject:
   m_ObjectHideFlags: 0

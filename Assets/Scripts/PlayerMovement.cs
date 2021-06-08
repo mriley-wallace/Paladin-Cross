@@ -18,6 +18,8 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private LayerMask groundMask;
     [SerializeField] private float gravity;
 
+    public Animator animator;
+
 
     [SerializeField] private float jumpHeight;
 
@@ -70,12 +72,26 @@ public class PlayerMovement : MonoBehaviour
                 Idle();
             }
 
-            moveDirection *= moveSpeed;
+            
 
             if (Input.GetKeyDown(KeyCode.Space))
             {
-                Jump();
+               Jump();
+                
+
             }
+
+
+            if (Input.GetKey(KeyCode.Mouse0))
+            {
+                Attack();
+            }
+
+            else
+            {
+                animator.SetBool("isAttacking", false);
+            }
+            moveDirection *= moveSpeed;
         }
 
         
@@ -90,11 +106,14 @@ public class PlayerMovement : MonoBehaviour
     private void Walk()
     {
         moveSpeed = walkSpeed;
+        animator.SetBool("isWalking", true);
+
     }
 
     private void Run()
     {
         moveSpeed = runSpeed;
+        animator.SetBool("isShiftPressed", true);
     }
 
     private void Idle()
@@ -104,6 +123,17 @@ public class PlayerMovement : MonoBehaviour
 
     private void Jump()
     {
-        velocity.y = Mathf.Sqrt(jumpHeight * -2 * gravity);
+        
+        velocity.y = Mathf.Sqrt(jumpHeight * -3 * gravity);
+        animator.SetBool("isWalking", false);
+        animator.SetBool("isShiftPressed", false);
+       
+
+    }
+
+    private void Attack()
+    {
+        animator.SetBool("isAttacking", true);
+
     }
 }
