@@ -15,11 +15,11 @@ C:/Users/midge/Documents/GitHub/Paladin-Cross
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58509
+55448
 Successfully changed project path to: C:/Users/midge/Documents/GitHub/Paladin-Cross
 C:/Users/midge/Documents/GitHub/Paladin-Cross
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 22.59 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 49.95 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.2f1 (8fd9074bf66c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/Resources/UnitySubsystems
@@ -35,326 +35,526 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56380
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56680
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001669 seconds.
+Registered in 0.002088 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 20.42 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 46.99 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.869 seconds
+- Completed reload, in  0.865 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000625 seconds.
+Registered in 0.004818 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.677 seconds
+- Completed reload, in  1.011 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1133 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 66.0 MB.
-System memory in use after: 66.0 MB.
+Unloading 1949 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.0 MB.
+System memory in use after: 96.0 MB.
 
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1600.
-Total: 1.364200 ms (FindLiveObjects: 0.129100 ms CreateObjectMapping: 0.050400 ms MarkObjects: 1.102200 ms  DeleteObjects: 0.081400 ms)
-
-========================================================================
-Received Import Request.
-  path: ProjectSettings/TagManager.asset
-  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '810588cd3d1ac142275891b6ccff7678') in 0.032052 seconds
-  Import took 0.033725 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000597 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.648 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1128 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 65.9 MB.
-System memory in use after: 66.0 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1603.
-Total: 1.227000 ms (FindLiveObjects: 0.115800 ms CreateObjectMapping: 0.028400 ms MarkObjects: 1.030300 ms  DeleteObjects: 0.051800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000595 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.648 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1128 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 66.0 MB.
-System memory in use after: 66.0 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1606.
-Total: 1.280300 ms (FindLiveObjects: 0.122000 ms CreateObjectMapping: 0.032200 ms MarkObjects: 1.069800 ms  DeleteObjects: 0.055400 ms)
+Unloading 59 unused Assets to reduce memory usage. Loaded Objects now: 2385.
+Total: 4.537600 ms (FindLiveObjects: 0.211000 ms CreateObjectMapping: 0.105100 ms MarkObjects: 4.107700 ms  DeleteObjects: 0.112300 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 19540.285314 seconds.
-  path: Assets/Prefabs/Enemy.prefab
-  artifactKey: Guid(8be85f82d19d20742bfa99fdd7fb384c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemy.prefab using Guid(8be85f82d19d20742bfa99fdd7fb384c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b347dc857523d67b8c3eff86bae5d586') in 0.149131 seconds
-  Import took 0.151531 seconds .
+  path: Assets/Audio/The Lost City/The Lost City Section B.wav
+  artifactKey: Guid(bef40cd489adcab4f8662c1aa2807b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/The Lost City/The Lost City Section B.wav using Guid(bef40cd489adcab4f8662c1aa2807b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b156a8f826a1ca483e641df518e3f09') in 0.112598 seconds
+  Import took 0.115176 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000153 seconds.
-  path: Assets/Prefabs/Player.prefab
-  artifactKey: Guid(403d9f5d067922b4fafa77e6b6e1f93b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Player.prefab using Guid(403d9f5d067922b4fafa77e6b6e1f93b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34c41ee54dd20aa50389183024d616b9') in 0.069503 seconds
-  Import took 0.071610 seconds .
+  Time since last request: 0.000170 seconds.
+  path: Assets/Audio/The Lost City/The Lost City Section C Full.wav
+  artifactKey: Guid(9827d105ccdad05499fc96a6f12e2c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/The Lost City/The Lost City Section C Full.wav using Guid(9827d105ccdad05499fc96a6f12e2c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4777ab86ec29677c681eb38edbce2a80') in 0.014092 seconds
+  Import took 0.017466 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.445756 seconds.
-  path: Assets/Prefabs/DungeonTiles
-  artifactKey: Guid(be9fddd1e682b4cfa9f64bd6f34b553f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/DungeonTiles using Guid(be9fddd1e682b4cfa9f64bd6f34b553f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cdc1e4cb41b8ab652b61a2099e74110') in 0.007818 seconds
-  Import took 0.009614 seconds .
+  Time since last request: 0.000151 seconds.
+  path: Assets/Audio/The Lost City/The Lost City Section E.wav
+  artifactKey: Guid(757328dc52b244d4fad70f0643a2886e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/The Lost City/The Lost City Section E.wav using Guid(757328dc52b244d4fad70f0643a2886e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2fad7b11ae5497b8e36ba789026606f') in 0.012332 seconds
+  Import took 0.016488 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.069410 seconds.
-  path: Assets/Prefabs/DungeonTiles/Tile0.prefab
-  artifactKey: Guid(7d7ea54c92e3c4ca3bdd081adb6953e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/DungeonTiles/Tile0.prefab using Guid(7d7ea54c92e3c4ca3bdd081adb6953e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '917e6a6af8095b55f8e78f04316214d1') in 0.017776 seconds
-  Import took 0.020299 seconds .
+  Time since last request: 0.000216 seconds.
+  path: Assets/Audio/The Lost City/The Lost City Intro Full + Transition.wav
+  artifactKey: Guid(657fd9c048a64f84ba3ce8549f275027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/The Lost City/The Lost City Intro Full + Transition.wav using Guid(657fd9c048a64f84ba3ce8549f275027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b913536c09c709dbf3a6d257ad690c60') in 0.013030 seconds
+  Import took 0.016557 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000176 seconds.
-  path: Assets/Prefabs/DungeonTiles/Tile2.prefab
-  artifactKey: Guid(ecf4f05d57d0b4d8aae8ee4c7cdc7ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/DungeonTiles/Tile2.prefab using Guid(ecf4f05d57d0b4d8aae8ee4c7cdc7ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f094bd14f7a4bd09a2f11ef98c6fbf5') in 0.012488 seconds
-  Import took 0.014521 seconds .
+  Time since last request: 0.000125 seconds.
+  path: Assets/Audio/The Lost City/The Lost City Outro.wav
+  artifactKey: Guid(6f500edbf0f348f49a1c832381b62db7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/The Lost City/The Lost City Outro.wav using Guid(6f500edbf0f348f49a1c832381b62db7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46da911626d4e70db1947ef72bba5cd7') in 0.013521 seconds
+  Import took 0.016601 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000194 seconds.
-  path: Assets/Prefabs/DungeonTiles/Tile4.prefab
-  artifactKey: Guid(90dfa7f7fe66347389d869f92b1b6a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/DungeonTiles/Tile4.prefab using Guid(90dfa7f7fe66347389d869f92b1b6a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b982541431fb79b63fe7be715568556') in 0.018630 seconds
-  Import took 0.020900 seconds .
+  Time since last request: 0.000183 seconds.
+  path: Assets/Audio/The Lost City/The Lost City.wav
+  artifactKey: Guid(d96c99a11ff053b459f90a3d9fb50266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/The Lost City/The Lost City.wav using Guid(d96c99a11ff053b459f90a3d9fb50266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '779492442bc0b5d4b0321a6d59a292a1') in 0.016217 seconds
+  Import took 0.020163 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000168 seconds.
-  path: Assets/Prefabs/DungeonTiles/Tile5.prefab
-  artifactKey: Guid(5031ae0cd920f4015b78bf393dd8d327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/DungeonTiles/Tile5.prefab using Guid(5031ae0cd920f4015b78bf393dd8d327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69ce5d4383f6addce8a3dd28813337f5') in 0.013499 seconds
-  Import took 0.015593 seconds .
+  Time since last request: 0.000169 seconds.
+  path: Assets/Audio/The Lost City
+  artifactKey: Guid(409c506b85ae1fe49968861c30cda486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/The Lost City using Guid(409c506b85ae1fe49968861c30cda486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1fb9aad265ae1ac2c0184cf5f66f90b') in 0.002574 seconds
+  Import took 0.006432 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000175 seconds.
-  path: Assets/Prefabs/DungeonTiles/Tile8.prefab
-  artifactKey: Guid(29ceda01ee5384847a4e46a74595d08c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/DungeonTiles/Tile8.prefab using Guid(29ceda01ee5384847a4e46a74595d08c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8494585377a4ab47e1f76bd600ebd19f') in 0.017488 seconds
-  Import took 0.019780 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000176 seconds.
-  path: Assets/Prefabs/DungeonTiles/Tile9.prefab
-  artifactKey: Guid(828a29cbf25f8441dabc6d11c2acb77b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/DungeonTiles/Tile9.prefab using Guid(828a29cbf25f8441dabc6d11c2acb77b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1d9979556dfee4ed58925b0df296774') in 0.011978 seconds
-  Import took 0.013795 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000168 seconds.
-  path: Assets/Prefabs/DungeonTiles/Tile10.prefab
-  artifactKey: Guid(d8eccfbc35cf449459e0a29707a8601a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/DungeonTiles/Tile10.prefab using Guid(d8eccfbc35cf449459e0a29707a8601a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '634229c11991cf2e78622ac12083ce13') in 0.012411 seconds
-  Import took 0.014535 seconds .
+  Time since last request: 0.000215 seconds.
+  path: Assets/Audio/The Lost City/The Lost City Section D Part B.wav
+  artifactKey: Guid(c60653be71d204f4e97fdcc1f55dfb4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/The Lost City/The Lost City Section D Part B.wav using Guid(c60653be71d204f4e97fdcc1f55dfb4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2172521d9b2c6a81fc11a71cc10b0b59') in 0.011287 seconds
+  Import took 0.015072 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000154 seconds.
-  path: Assets/Prefabs/DungeonTiles/Tile15.prefab
-  artifactKey: Guid(ccf62cf2152f44840bc4038e037a7075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/DungeonTiles/Tile15.prefab using Guid(ccf62cf2152f44840bc4038e037a7075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '149ffce0ca382e31dc18a845980da749') in 0.012498 seconds
-  Import took 0.014365 seconds .
+  path: Assets/Audio/The Lost City/The Lost City Intro Part A.wav
+  artifactKey: Guid(e917495a15bb50b438598f5e0b056e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/The Lost City/The Lost City Intro Part A.wav using Guid(e917495a15bb50b438598f5e0b056e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '777a1fe48d845afd7f612b755f0aeecd') in 0.013523 seconds
+  Import took 0.016787 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/Prefabs/DungeonTiles/Tile14.prefab
-  artifactKey: Guid(9a4dcf0d36e2c40188dbb2e26e6bebb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/DungeonTiles/Tile14.prefab using Guid(9a4dcf0d36e2c40188dbb2e26e6bebb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce2b2b90dca5b3f6b2d5c58c53a11d15') in 0.013588 seconds
-  Import took 0.015621 seconds .
+  Time since last request: 0.000143 seconds.
+  path: Assets/Audio/The Lost City/The Lost City Section F.wav
+  artifactKey: Guid(af6d6fb1df995e84b99e14d9879f5096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/The Lost City/The Lost City Section F.wav using Guid(af6d6fb1df995e84b99e14d9879f5096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe5e87fb8f33443dea39386573d61097') in 0.010698 seconds
+  Import took 0.013409 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000188 seconds.
-  path: Assets/Prefabs/DungeonTiles/Tile12.prefab
-  artifactKey: Guid(02a96c93422fc486489a73449bf5dc57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/DungeonTiles/Tile12.prefab using Guid(02a96c93422fc486489a73449bf5dc57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbc3aee3bff53c0ce4d6351ff641a4e9') in 0.013385 seconds
-  Import took 0.015333 seconds .
+  Time since last request: 0.000139 seconds.
+  path: Assets/Audio/The Lost City/The Lost City Section A.wav
+  artifactKey: Guid(d38b21560da339743b78fc98131cddb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/The Lost City/The Lost City Section A.wav using Guid(d38b21560da339743b78fc98131cddb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ed7f9dc719c5afe75027248bb8fbd17') in 0.009576 seconds
+  Import took 0.012608 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Audio/The Lost City/The Lost City Section A + Strings.wav
+  artifactKey: Guid(44d2d403366480e46ac7e5fc970c864f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/The Lost City/The Lost City Section A + Strings.wav using Guid(44d2d403366480e46ac7e5fc970c864f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aaaff300e87b098bc418b367341f567') in 0.009662 seconds
+  Import took 0.012736 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000161 seconds.
-  path: Assets/Prefabs/DungeonTiles/Tile11.prefab
-  artifactKey: Guid(d8f00be40153543d0ab1f0d99a74df6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/DungeonTiles/Tile11.prefab using Guid(d8f00be40153543d0ab1f0d99a74df6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06081f09107c2613b14c858477ab960b') in 0.014494 seconds
-  Import took 0.016203 seconds .
+  path: Assets/Audio/The Lost City/The Lost City Section D Part A + B.wav
+  artifactKey: Guid(284a4327fd988ae4db604ad4c139c3c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/The Lost City/The Lost City Section D Part A + B.wav using Guid(284a4327fd988ae4db604ad4c139c3c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf51df58ae629fdeeab2d779d6461206') in 0.016008 seconds
+  Import took 0.019621 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/Prefabs/DungeonTiles/Tile7.prefab
-  artifactKey: Guid(7af464697e0ab41a5be05dee6f5c2b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/DungeonTiles/Tile7.prefab using Guid(7af464697e0ab41a5be05dee6f5c2b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5caa04bc4761c45688a1cf888814cf67') in 0.013673 seconds
-  Import took 0.015736 seconds .
+  Time since last request: 0.000192 seconds.
+  path: Assets/Audio/The Lost City/The Lost City Intro Full.wav
+  artifactKey: Guid(9d710101995524d4f86870f5f41ddd55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/The Lost City/The Lost City Intro Full.wav using Guid(9d710101995524d4f86870f5f41ddd55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0caa272ed3a3d20d718031b53b6b6de1') in 0.011663 seconds
+  Import took 0.014382 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000174 seconds.
-  path: Assets/Prefabs/DungeonTiles/Tile13.prefab
-  artifactKey: Guid(e161c87f6a4c3413c881fcb2dfdd9b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/DungeonTiles/Tile13.prefab using Guid(e161c87f6a4c3413c881fcb2dfdd9b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f188bde00eab8f44d9016671119fbf3') in 0.012685 seconds
-  Import took 0.014784 seconds .
+  Time since last request: 0.000164 seconds.
+  path: Assets/Audio/The Lost City/The Lost City Section D Part B + C.wav
+  artifactKey: Guid(a4b1cd905a9e0944f808fdafd10ed419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/The Lost City/The Lost City Section D Part B + C.wav using Guid(a4b1cd905a9e0944f808fdafd10ed419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac20ea3fef9f42a1b5e7b6712b74079f') in 0.010890 seconds
+  Import took 0.013938 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/Prefabs/DungeonTiles/Tile1.prefab
-  artifactKey: Guid(00022e44e06ba4686a52ff33cd6af19b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/DungeonTiles/Tile1.prefab using Guid(00022e44e06ba4686a52ff33cd6af19b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65b1670edbc552b0d14a677db2259746') in 0.013042 seconds
-  Import took 0.015206 seconds .
+  Time since last request: 0.000141 seconds.
+  path: Assets/Audio/The Lost City/The Lost City Section D Full.wav
+  artifactKey: Guid(56a07e6284f60b940b3c477003e92253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/The Lost City/The Lost City Section D Full.wav using Guid(56a07e6284f60b940b3c477003e92253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6e5f1743fe8a18d6785305316e7b9fe') in 0.016714 seconds
+  Import took 0.019757 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000156 seconds.
-  path: Assets/Prefabs/DungeonTiles/Tile6.prefab
-  artifactKey: Guid(cd19d9115d9a14e4193a39766437a679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/DungeonTiles/Tile6.prefab using Guid(cd19d9115d9a14e4193a39766437a679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6a8f277c1205c4381de0d1ef3512cde') in 0.013540 seconds
-  Import took 0.015496 seconds .
+  Time since last request: 0.000159 seconds.
+  path: Assets/Audio/The Lost City/The Lost City Section C Part B.wav
+  artifactKey: Guid(0103e5c9edd8fb947a1acb13896e54d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/The Lost City/The Lost City Section C Part B.wav using Guid(0103e5c9edd8fb947a1acb13896e54d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daabbb977b3f89b9a981d9e66b94816f') in 0.018468 seconds
+  Import took 0.021121 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000185 seconds.
-  path: Assets/Prefabs/DungeonTiles/Tile3.prefab
-  artifactKey: Guid(b33f2fc7081e8459fb6d76b57d008b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/DungeonTiles/Tile3.prefab using Guid(b33f2fc7081e8459fb6d76b57d008b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33d1dee323f3a2202de25aec45ec0e6b') in 0.012858 seconds
-  Import took 0.014892 seconds .
+  Time since last request: 0.000160 seconds.
+  path: Assets/Audio/The Lost City/The Lost City Section D Part C.wav
+  artifactKey: Guid(f60bbe4a2a6a4d24bbab0ff8bb2167fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/The Lost City/The Lost City Section D Part C.wav using Guid(f60bbe4a2a6a4d24bbab0ff8bb2167fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3327725706dcfeba45508f01bdd6ba4') in 0.012283 seconds
+  Import took 0.015502 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.476013 seconds.
-  path: Assets/Prefabs/Materials
-  artifactKey: Guid(1d90e8e96f35140d6bed17ee9c581927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Materials using Guid(1d90e8e96f35140d6bed17ee9c581927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '611eb61846a5dc08340345020b626252') in 0.006235 seconds
-  Import took 0.007881 seconds .
+  Time since last request: 0.000171 seconds.
+  path: Assets/Audio/The Lost City/The Lost City Section D Part A.wav
+  artifactKey: Guid(1ca3077940578e1478335a4a27a3af4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/The Lost City/The Lost City Section D Part A.wav using Guid(1ca3077940578e1478335a4a27a3af4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '989fa1dbca598ceccbd67ab667132784') in 0.011470 seconds
+  Import took 0.014668 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.037493 seconds.
-  path: Assets/Prefabs/Materials/BanyanBark.mat
-  artifactKey: Guid(4013ffb83471c44a99ae39dd19f4bb58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Materials/BanyanBark.mat using Guid(4013ffb83471c44a99ae39dd19f4bb58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fb54d783955102a558304004c94aa53') in 0.026586 seconds
-  Import took 0.028315 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000134 seconds.
-  path: Assets/Prefabs/Materials/BanyanBranches.mat
-  artifactKey: Guid(7186e4ec31ca3459da36b9faf2049a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Materials/BanyanBranches.mat using Guid(7186e4ec31ca3459da36b9faf2049a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6686f93c3fa2885aae091ad5445f6bc') in 0.009729 seconds
-  Import took 0.011298 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 37.946162 seconds.
-  path: Assets/Prefabs/Player.prefab
-  artifactKey: Guid(403d9f5d067922b4fafa77e6b6e1f93b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Player.prefab using Guid(403d9f5d067922b4fafa77e6b6e1f93b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5964f6a46caed390692956ba539a5aa2') in 0.058641 seconds
-  Import took 0.061706 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000635 seconds.
-  path: Assets/Prefabs/Player.prefab
-  artifactKey: Guid(403d9f5d067922b4fafa77e6b6e1f93b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Player.prefab using Guid(403d9f5d067922b4fafa77e6b6e1f93b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5964f6a46caed390692956ba539a5aa2') in 0.051999 seconds
-  Import took 0.054235 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.599155 seconds.
-  path: Assets/Prefabs/Enemy.prefab
-  artifactKey: Guid(8be85f82d19d20742bfa99fdd7fb384c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemy.prefab using Guid(8be85f82d19d20742bfa99fdd7fb384c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b92b92281b4b844bf89fb3929339d97a') in 0.039615 seconds
-  Import took 0.042160 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003654 seconds.
-  path: Assets/Prefabs/Enemy.prefab
-  artifactKey: Guid(8be85f82d19d20742bfa99fdd7fb384c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemy.prefab using Guid(8be85f82d19d20742bfa99fdd7fb384c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b92b92281b4b844bf89fb3929339d97a') in 0.038467 seconds
-  Import took 0.041221 seconds .
+  Time since last request: 0.000152 seconds.
+  path: Assets/Audio/The Lost City/The Lost City Section C Part A.wav
+  artifactKey: Guid(b19b048c5b14c3446ba00d0fdbbd3fd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/The Lost City/The Lost City Section C Part A.wav using Guid(b19b048c5b14c3446ba00d0fdbbd3fd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1cae591f7c238c65b26105a478fc8a7') in 0.016020 seconds
+  Import took 0.019477 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000969 seconds.
+Registered in 0.004637 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.759 seconds
+- Completed reload, in  0.917 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1128 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 83.0 MB.
-System memory in use after: 83.1 MB.
+Unloading 1944 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.1 MB.
+System memory in use after: 99.2 MB.
 
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1651.
-Total: 1.514500 ms (FindLiveObjects: 0.170900 ms CreateObjectMapping: 0.047200 ms MarkObjects: 1.240500 ms  DeleteObjects: 0.054900 ms)
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 2397.
+Total: 4.570500 ms (FindLiveObjects: 0.170400 ms CreateObjectMapping: 0.064500 ms MarkObjects: 4.252700 ms  DeleteObjects: 0.081600 ms)
 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+========================================================================
+Received Import Request.
+  Time since last request: 290.195699 seconds.
+  path: Assets/Resources/BillingMode.json
+  artifactKey: Guid(9b70d332fc497d442aa65347dd5a8c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/BillingMode.json using Guid(9b70d332fc497d442aa65347dd5a8c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '880190b8e1c0d341509c8568dcf015a7') in 0.310730 seconds
+  Import took 0.313920 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.539026 seconds.
+  path: Assets/Terrains/Islands.asset
+  artifactKey: Guid(94511fbc8bb3e4f94aa3a65d6f584b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrains/Islands.asset using Guid(94511fbc8bb3e4f94aa3a65d6f584b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a8ec1ed0124b30c2384fb28deded457') in 0.098575 seconds
+  Import took 0.101692 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Terrains/layer_LightmapWithFog(2048.000,2048.000)(0.000,0.000)(0.000,0.000,0.000),0.000,0.000.terrainlayer
+  artifactKey: Guid(9f4e51767bd6244418c3f1234ffeac48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrains/layer_LightmapWithFog(2048.000,2048.000)(0.000,0.000)(0.000,0.000,0.000),0.000,0.000.terrainlayer using Guid(9f4e51767bd6244418c3f1234ffeac48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '560eeddb27b22bb2959d7d0a376ac3d3') in 0.025602 seconds
+  Import took 0.028147 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Terrains/LightmapWithFog.png
+  artifactKey: Guid(8377171c01a5547358598762f90c022f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrains/LightmapWithFog.png using Guid(8377171c01a5547358598762f90c022f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9578412324a33e258bb11ba42b43abd') in 0.023897 seconds
+  Import took 0.026763 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000759 seconds.
+  path: Assets/Terrains/LightmapWithFog.png
+  artifactKey: Guid(8377171c01a5547358598762f90c022f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrains/LightmapWithFog.png using Guid(8377171c01a5547358598762f90c022f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9578412324a33e258bb11ba42b43abd') in 0.012379 seconds
+  Import took 0.015386 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005728 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.320 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1944 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.2 MB.
+System memory in use after: 99.2 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 2403.
+Total: 6.652900 ms (FindLiveObjects: 0.473500 ms CreateObjectMapping: 0.196100 ms MarkObjects: 5.871200 ms  DeleteObjects: 0.110300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 324.543549 seconds.
+  path: Assets/Terrains
+  artifactKey: Guid(75dd45a13a93f4ea2a0e5018ef4651c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrains using Guid(75dd45a13a93f4ea2a0e5018ef4651c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65bf10ca8fc7251ce2909d777371918e') in 0.010711 seconds
+  Import took 0.014242 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004468 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.956 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1944 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.2 MB.
+System memory in use after: 99.3 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 2406.
+Total: 5.712000 ms (FindLiveObjects: 0.216900 ms CreateObjectMapping: 0.065300 ms MarkObjects: 5.315400 ms  DeleteObjects: 0.113000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007321 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.980 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1944 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.2 MB.
+System memory in use after: 99.3 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 2409.
+Total: 4.915200 ms (FindLiveObjects: 0.408800 ms CreateObjectMapping: 0.124300 ms MarkObjects: 4.272200 ms  DeleteObjects: 0.108300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008522 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.267 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1944 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.2 MB.
+System memory in use after: 99.3 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 2412.
+Total: 8.424700 ms (FindLiveObjects: 0.286100 ms CreateObjectMapping: 0.083600 ms MarkObjects: 7.928300 ms  DeleteObjects: 0.124900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005725 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.946 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1944 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.2 MB.
+System memory in use after: 99.3 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 2415.
+Total: 4.369900 ms (FindLiveObjects: 0.180000 ms CreateObjectMapping: 0.058700 ms MarkObjects: 4.039000 ms  DeleteObjects: 0.091100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004634 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.918 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1944 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.2 MB.
+System memory in use after: 99.3 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 2418.
+Total: 4.351400 ms (FindLiveObjects: 0.214800 ms CreateObjectMapping: 0.063300 ms MarkObjects: 3.961400 ms  DeleteObjects: 0.109800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1594.444521 seconds.
+  path: Assets/Scripts/EnemyAI.cs
+  artifactKey: Guid(d6345d7d0beae1148ba7372906d91547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/EnemyAI.cs using Guid(d6345d7d0beae1148ba7372906d91547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e27a99d1b55caeb7f9167e9e03c52be') in 0.015155 seconds
+  Import took 0.019028 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015351 seconds.
+  path: Assets/Scripts/EnemyAI.cs
+  artifactKey: Guid(d6345d7d0beae1148ba7372906d91547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/EnemyAI.cs using Guid(d6345d7d0beae1148ba7372906d91547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e27a99d1b55caeb7f9167e9e03c52be') in 0.002753 seconds
+  Import took 0.005943 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004753 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.020 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1944 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.2 MB.
+System memory in use after: 99.3 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 2421.
+Total: 4.563300 ms (FindLiveObjects: 0.181400 ms CreateObjectMapping: 0.089000 ms MarkObjects: 4.182300 ms  DeleteObjects: 0.108900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.726034 seconds.
+  path: Assets/Scripts/EnemyAI.cs
+  artifactKey: Guid(d6345d7d0beae1148ba7372906d91547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/EnemyAI.cs using Guid(d6345d7d0beae1148ba7372906d91547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b665374cf36ba826708385bee1f0b4aa') in 0.004287 seconds
+  Import took 0.007210 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.811254 seconds.
+  path: Assets/Imported Assets/JJ_Casual RPG Character - 8Ekard v1.1/Prefaps/Ekard_Generic.prefab
+  artifactKey: Guid(b02dae70454e88b4dabff60c98182c10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/JJ_Casual RPG Character - 8Ekard v1.1/Prefaps/Ekard_Generic.prefab using Guid(b02dae70454e88b4dabff60c98182c10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96495b0c3f2e520ce3d707a1b5bfd157') in 0.165741 seconds
+  Import took 0.169308 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Imported Assets/JJ_Casual RPG Character - 8Ekard v1.1/Prefaps/Ekard_Humanoid.prefab
+  artifactKey: Guid(5e948eb931d08954191a1d35a0853595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/JJ_Casual RPG Character - 8Ekard v1.1/Prefaps/Ekard_Humanoid.prefab using Guid(5e948eb931d08954191a1d35a0853595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3926a1d4ffe8c35bb3bfb8b8ea54c300') in 0.021428 seconds
+  Import took 0.024197 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.331040 seconds.
+  path: Assets/Imported Assets/JJ_Casual RPG Character - 8Ekard v1.1/Prefaps/Ekard_Generic.prefab
+  artifactKey: Guid(b02dae70454e88b4dabff60c98182c10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/JJ_Casual RPG Character - 8Ekard v1.1/Prefaps/Ekard_Generic.prefab using Guid(b02dae70454e88b4dabff60c98182c10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96495b0c3f2e520ce3d707a1b5bfd157') in 0.067331 seconds
+  Import took 0.072225 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007037 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.990 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1944 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 112.9 MB.
+System memory in use after: 113.0 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 2426.
+Total: 4.565500 ms (FindLiveObjects: 0.168500 ms CreateObjectMapping: 0.058900 ms MarkObjects: 4.255700 ms  DeleteObjects: 0.081400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004661 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.872 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1944 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 112.9 MB.
+System memory in use after: 113.0 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 2429.
+Total: 5.177500 ms (FindLiveObjects: 0.194400 ms CreateObjectMapping: 0.079100 ms MarkObjects: 4.817300 ms  DeleteObjects: 0.085500 ms)
+

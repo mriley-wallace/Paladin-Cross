@@ -127,7 +127,8 @@ public class PlayerMovement : MonoBehaviour
         velocity.y = Mathf.Sqrt(jumpHeight * -3 * gravity);
         animator.SetBool("isWalking", false);
         animator.SetBool("isShiftPressed", false);
-       
+        animator.SetBool("isJumping", true);
+
 
     }
 

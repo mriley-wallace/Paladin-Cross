@@ -25,6 +25,12 @@ public class HealthSystem : MonoBehaviour
         {
             Damage(20);
         }
+
+        if(health <= 0)
+        {
+
+            StartCoroutine(onDeathPause());
+        }
     }
 
     public int GetHealth()
@@ -58,4 +64,10 @@ public class HealthSystem : MonoBehaviour
         }
     }
 
+    IEnumerator onDeathPause()
+    {
+        
+        yield return new WaitForSeconds(2);
+        Time.timeScale = 0;
+    }
 }
