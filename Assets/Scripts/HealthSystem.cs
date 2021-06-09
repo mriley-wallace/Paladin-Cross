@@ -68,6 +68,7 @@ public class HealthSystem : MonoBehaviour
     {
         
         yield return new WaitForSeconds(2);
+        FindObjectOfType<GameStateManager>().EndGame();
         Time.timeScale = 0;
     }
 }
